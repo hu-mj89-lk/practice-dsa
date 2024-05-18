@@ -1,4 +1,4 @@
-package practice;
+package interview.solved;
 
 /**
  * Given a tree, find the number of balanced nodes in this tree.

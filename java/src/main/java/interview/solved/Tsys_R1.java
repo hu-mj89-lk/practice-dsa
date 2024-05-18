@@ -1,4 +1,4 @@
-package practice;
+package interview.solved;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
