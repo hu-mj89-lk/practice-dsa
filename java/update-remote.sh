@@ -11,11 +11,11 @@ if echo "$LATEST_COMMIT_MSG" | grep -qi "wip"; then
   git stash push -q
   # commit current
   git stash pop -q stash@{1}
-  git add -q .
+  git add .
   git commit -q
   # commit wip
   git stash pop -q stash@{0}
-  git add -q .
+  git add .
   git commit -q -m "$LATEST_COMMIT_MSG"
 fi
 
