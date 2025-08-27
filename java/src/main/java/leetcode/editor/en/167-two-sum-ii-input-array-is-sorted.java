@@ -26,12 +26,11 @@ class Driver_167 {
             while (start < end) {
                 int sum = numbers[start] + numbers[end];
 
-                int mid = (start + end) >> 1;
                 if (sum == target) {
                     return new int[]{start + 1, end + 1};
                 } else if (sum < target) {
                     start++;
-                } else if (sum > target) {
+                } else {
                     end--;
                 }
             }
@@ -42,7 +41,7 @@ class Driver_167 {
         /**
          * approach : iterate over the array and, for every element Binary Search its compliment
          * <p>
-         * time complexity : O(n*log(n))
+         * time complexity : O(nLog(n))
          * space complexity : O(1)
          */
         private int[] solutionMy(int[] numbers, int target) {

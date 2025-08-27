@@ -29,7 +29,7 @@ class Driver_15 {
         private List<List<Integer>> solution2(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
 
-            // time complexity : O(nlog(n)) , space complexity : O(1) to O(n)
+            // time complexity : O(nLog(n)) , space complexity : O(1) to O(n)
             Arrays.sort(nums);
 
             int prevOuter = Integer.MIN_VALUE;
@@ -70,7 +70,7 @@ class Driver_15 {
         private List<List<Integer>> solution1(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
 
-            // time complexity : O(nlog(n)) , space complexity : O(1) to O(n)
+            // time complexity : O(nLog(n)) , space complexity : O(1) to O(n)
             Arrays.sort(nums);
 
             int prevOuter = Integer.MIN_VALUE;

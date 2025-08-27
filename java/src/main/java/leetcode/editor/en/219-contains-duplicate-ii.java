@@ -65,7 +65,7 @@ class Driver_219 {
         /**
          * approach : maintain a sliding window of previous k elements and search current element in it
          * search : Binary search, using BST for sliding window
-         * time complexity : O(nlog(k))
+         * time complexity : O(nLog(k))
          * space complexity : O(k)
          */
         private boolean solution2(int[] nums, int k) {
